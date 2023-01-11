@@ -1,0 +1,39 @@
+* {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+ background-color: beige;
+}
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+h2 {
+    font-size: x-large;
+    margin-top: 30px;
+}
+#jugadoresContainer {
+    display: flex;
+    justify-content: center;
+    
+}
+.jugadorContainer {
+    width: 40vw;
+    min-height: 70vw;
+    background-color: rgb(234, 233, 213);
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    min-width: 60px;
+    font-size: xx-large;
+    background-color: rgb(200, 197, 193);
+    border-radius: 5px;
+}
+.botonesJugador {
+    position: fixed;
+    top: 65px;
+}
